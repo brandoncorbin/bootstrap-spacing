@@ -16,16 +16,16 @@ $hairlineColor : rgba(0,0,0,.1);
 		margin-top: $sm;
 	}
 
-&.spacer-md {
-		margin-top: $md;
-	}
+	&.spacer-md {
+			margin-top: $md;
+		}
 
-&.spacer-lg {
-		margin-top: $lg;
-	}
+	&.spacer-lg {
+			margin-top: $lg;
+		}
 
-&.spacer-xl {
-		margin-top: $xl;
+	&.spacer-xl {
+			margin-top: $xl;
 	}
 }
 
@@ -52,77 +52,85 @@ $hairlineColor : rgba(0,0,0,.1);
 	}
 }
 
-
-
-/*****************************************************
-* Generic Padding
-* Work around some default ugliness of bootstrap
-******************************************************/
 .padding {
-	padding: $md;
+/* 	padding: $md; */
 	&.padding-sm {
 		padding: $sm;
 	}
+	&.padding-sm-left {
+		padding-left:$sm;
+	}
+	&.padding-sm-right {
+		padding-right:$sm;
+	}
+	&.padding-sm-top {
+		padding-top:$sm;
+	}
+	&.padding-sm-bottom {
+		padding-bottom:$sm;
+	}
 
-&.padding-md {
+	&.padding-md {
 		padding: $md;
 	}
+	&.padding-md-left {
+		padding-left:$md;
+	}
+	&.padding-md-right {
+		padding-right:$md;
+	}
+	&.padding-md-top {
+		padding-top:$md;
+	}
+	&.padding-md-bottom {
+		padding-bottom:$md;
+	}
 
-&.padding-lg {
+	&.padding-lg {
 		padding: $lg;
 	}
+	&.padding-lg-left {
+		padding-left:$lg;
+	}
+	&.padding-lg-right {
+		padding-right:$lg;
+	}
+	&.padding-lg-top {
+		padding-top:$lg;
+	}
+	&.padding-lg-bottom {
+		padding-bottom:$lg;
+	}
 
-.padding-xl {
+	&.padding-xl {
 		padding: $xl;
 	}
-
-
-&.padding-top {
-		padding-bottom: inherit;
-		padding-left  : inherit;
-		padding-right : inherit;
+	&.padding-xl-left {
+		padding-left:$xl;
+	}
+	&.padding-xl-right {
+		padding-right:$xl;
+	}
+	&.padding-xl-top {
+		padding-top:$xl;
+	}
+	&.padding-xl-bottom {
+		padding-bottom:$xl;
 	}
 
-&.padding-bottom {
-		padding-top  : inherit;
-		padding-left : inherit;
-		padding-right: inherit;
+	&.padding-off {
+		padding: 0;
 	}
-
-&.padding-right {
-		padding-left  : inherit;
-		padding-top   : inherit;
-		padding-bottom: inherit;
+	&.padding-off-left {
+		padding-left:0 !important;
 	}
-
-&.padding-no-top {
-	padding-top:0 !important;
-}
-&.padding-no-bottom {
-	padding-bottom:0 !important;
-}
-&.padding-no-left {
-	padding-left:0 !important;
-}
-&.padding-no-right {
-	padding-right:0 !important;
-}
-
-&.padding-left {
-		padding-right : inherit;
-		padding-top   : inherit;
-		padding-bottom: inherit;
+	&.padding-off-right {
+		padding-right:0 !important;
 	}
-	&.padding-top-bottom {
-			padding-right : inherit;
-			padding-left   : inherit;
-		}
-		&.padding-left-right {
-				padding-top : inherit;
-				padding-bottom   : inherit;
-			}
-}
-
-.padding-none {
-	padding: 0 !important;
+	&.paddingoff-top {
+		padding-top:0 !important;
+	}
+	&.padding-off-bottom {
+		padding-bottom:0 !important;
+	}
 }

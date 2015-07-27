@@ -28,52 +28,57 @@
 .hairline.hairline-all {
   border: solid 1px rgba(0, 0, 0, 0.1); }
 
-/*****************************************************
-* Generic Padding
-* Work around some default ugliness of bootstrap
-******************************************************/
 .padding {
-  padding: 15px; }
+  /* 	padding: $md; */ }
   .padding.padding-sm {
     padding: 5px; }
+  .padding.padding-sm-left {
+    padding-left: 5px; }
+  .padding.padding-sm-right {
+    padding-right: 5px; }
+  .padding.padding-sm-top {
+    padding-top: 5px; }
+  .padding.padding-sm-bottom {
+    padding-bottom: 5px; }
   .padding.padding-md {
     padding: 15px; }
+  .padding.padding-md-left {
+    padding-left: 15px; }
+  .padding.padding-md-right {
+    padding-right: 15px; }
+  .padding.padding-md-top {
+    padding-top: 15px; }
+  .padding.padding-md-bottom {
+    padding-bottom: 15px; }
   .padding.padding-lg {
     padding: 25px; }
-  .padding .padding-xl {
+  .padding.padding-lg-left {
+    padding-left: 25px; }
+  .padding.padding-lg-right {
+    padding-right: 25px; }
+  .padding.padding-lg-top {
+    padding-top: 25px; }
+  .padding.padding-lg-bottom {
+    padding-bottom: 25px; }
+  .padding.padding-xl {
     padding: 45px; }
-  .padding.padding-top {
-    padding-bottom: inherit;
-    padding-left: inherit;
-    padding-right: inherit; }
-  .padding.padding-bottom {
-    padding-top: inherit;
-    padding-left: inherit;
-    padding-right: inherit; }
-  .padding.padding-right {
-    padding-left: inherit;
-    padding-top: inherit;
-    padding-bottom: inherit; }
-  .padding.padding-no-top {
-    padding-top: 0 !important; }
-  .padding.padding-no-bottom {
-    padding-bottom: 0 !important; }
-  .padding.padding-no-left {
+  .padding.padding-xl-left {
+    padding-left: 45px; }
+  .padding.padding-xl-right {
+    padding-right: 45px; }
+  .padding.padding-xl-top {
+    padding-top: 45px; }
+  .padding.padding-xl-bottom {
+    padding-bottom: 45px; }
+  .padding.padding-off {
+    padding: 0; }
+  .padding.padding-off-left {
     padding-left: 0 !important; }
-  .padding.padding-no-right {
+  .padding.padding-off-right {
     padding-right: 0 !important; }
-  .padding.padding-left {
-    padding-right: inherit;
-    padding-top: inherit;
-    padding-bottom: inherit; }
-  .padding.padding-top-bottom {
-    padding-right: inherit;
-    padding-left: inherit; }
-  .padding.padding-left-right {
-    padding-top: inherit;
-    padding-bottom: inherit; }
-
-.padding-none {
-  padding: 0 !important; }
+  .padding.paddingoff-top {
+    padding-top: 0 !important; }
+  .padding.padding-off-bottom {
+    padding-bottom: 0 !important; }
 
 /*# sourceMappingURL=bootstrap-spacing.css.map */
