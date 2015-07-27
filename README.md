@@ -21,7 +21,7 @@ Spacer is a margin that can be added to any element. By default spacer adds marg
 
 - **spacer-off**  
 - **spacer-sm**
-- **spacer-md** 
+- **spacer-md**
 - **spacer-lg**
 - **spacer-xl**
 
@@ -63,22 +63,16 @@ Like spacer, padding can be added to any element, but this time it's padding.
 - **padding-md-top**
 - **padding-lg-top**
 - **padding-xl-top**
-
-
 - **padding-off-bottom**  
 - **padding-sm-bottom**
 - **padding-md-bottom**
 - **padding-lg-bottom**
 - **padding-xl-bottom**
-
-
 - **padding-off-left**  
 - **padding-sm-left**
 - **padding-md-left**
 - **padding-lg-left**
 - **padding-xl-left**
-
-
 - **padding-off-right**  
 - **padding-sm-right**
 - **padding-md-right**
