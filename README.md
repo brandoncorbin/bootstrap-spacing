@@ -11,10 +11,10 @@ Spacer is a margin that can be added to any element. By default spacer adds marg
 	I'll have a little margin on the top.
 </div>
 <div class="spacer">
-	I'll have a some more margin on the top.
+	I'll have some more margin on the top.
 </div>
 <div class="spacer spacer-xl">
-	I'll have a some more margin on the top.
+	I'll have event more margin on the top.
 </div>
 ```
 
@@ -25,13 +25,13 @@ Like spacer, padding can be added to any element, but this time it's padding.
 
 ```
 <div class="padding padding-sm">
-	I'll have a little padding on the top.
+	I'll have a little padding.
 </div>
 <div class="padding padding-md">
-	I'll have a some more padding on the top.
+	I'll have some more padding.
 </div>
-<div class="padding padding-xl">
-	I'll have a some more padding on the top.
+<div class="padding padding-xl padding-top-bottom">
+	I'll have event more some more padding, but only on the top and bottom;
 </div>
 ```
 
