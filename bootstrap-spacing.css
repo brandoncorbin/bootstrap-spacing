@@ -2,54 +2,16 @@
 * Generic Spacer
 * Work around some default ugliness of bootstrap
 ******************************************************/
-.spacer,
-.spacer-top {
-  margin-top: 20px; }
-  .spacer.spacer-sm,
-  .spacer-top.spacer-sm {
+.spacer {
+  margin-top: 15px; }
+  .spacer.spacer-sm {
     margin-top: 5px; }
-  .spacer.spacer-md,
-  .spacer-top.spacer-md {
+  .spacer.spacer-md {
     margin-top: 15px; }
-  .spacer.spacer-xl,
-  .spacer-top.spacer-xl {
-    margin-top: 40px; }
-  .spacer.spacer-lg,
-  .spacer-top.spacer-lg {
+  .spacer.spacer-lg {
     margin-top: 25px; }
-
-.spacer-bottom {
-  margin-top: 20px; }
-  .spacer-bottom.spacer-bottom-sm {
-    margin-top: 5px; }
-  .spacer-bottom.spacer-bottom-md {
-    margin-top: 15px; }
-  .spacer-bottom.spacer-bottom-xl {
+  .spacer .spacer-xl {
     margin-top: 40px; }
-  .spacer-bottom.spacer-bottom-lg {
-    margin-top: 25px; }
-
-.spacer-right {
-  margin-right: 15px; }
-  .spacer-right.spacer-right-sm {
-    margin-right: 5px; }
-  .spacer-right.spacer-right-md {
-    margin-right: 15px; }
-  .spacer-right.spacer-right-lg {
-    margin-right: 25px; }
-  .spacer-right.spacer-right-xl {
-    margin-right: 40px; }
-
-.spacer-left {
-  margin-left: 15px; }
-  .spacer-left.spacer-left-sm {
-    margin-left: 5px; }
-  .spacer-left.spacer-left-md {
-    margin-left: 15px; }
-  .spacer-left.spacer-left-lg {
-    margin-left: 25px; }
-  .spacer-left.spacer-left-xl {
-    margin-left: 40px; }
 
 /*****************************************************
 * Hairline
@@ -78,7 +40,7 @@
     padding: 15px; }
   .padding.padding-lg {
     padding: 25px; }
-  .padding.padding-xl {
+  .padding .padding-xl {
     padding: 40px; }
   .padding.padding-top {
     padding-bottom: inherit;
@@ -92,6 +54,14 @@
     padding-left: inherit;
     padding-top: inherit;
     padding-bottom: inherit; }
+  .padding.padding-no-top {
+    padding-top: 0 !important; }
+  .padding.padding-no-bottom {
+    padding-bottom: 0 !important; }
+  .padding.padding-no-left {
+    padding-left: 0 !important; }
+  .padding.padding-no-right {
+    padding-right: 0 !important; }
   .padding.padding-left {
     padding-right: inherit;
     padding-top: inherit;

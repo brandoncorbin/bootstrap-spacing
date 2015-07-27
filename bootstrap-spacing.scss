@@ -7,9 +7,11 @@ $md: 15px;
 $lg: 25px;
 $xl: 40px;
 $hairlineColor : rgba(0,0,0,.1);
-.spacer,
-.spacer-top {
-	margin-top: 20px;
+
+
+.spacer {
+	margin-top:$md;
+
 	&.spacer-sm {
 		margin-top: $sm;
 	}
@@ -18,74 +20,15 @@ $hairlineColor : rgba(0,0,0,.1);
 		margin-top: $md;
 	}
 
-&.spacer-xl {
-		margin-top: $xl;
-	}
-
 &.spacer-lg {
 		margin-top: $lg;
 	}
-}
 
-// Spacer Bottom
-.spacer-bottom {
-	margin-top: 20px;
-	&.spacer-bottom-sm {
-		margin-top: $sm;
-	}
-
-&.spacer-bottom-md {
-		margin-top: $md;
-	}
-
-&.spacer-bottom-xl {
+.spacer-xl {
 		margin-top: $xl;
 	}
-
-&.spacer-bottom-lg {
-		margin-top: $lg;
-	}
 }
 
-// Spacer Right
-.spacer-right {
-	margin-right: $md;
-	&.spacer-right-sm {
-		margin-right: $sm;
-	}
-
-&.spacer-right-md {
-		margin-right: $md;
-	}
-
-&.spacer-right-lg {
-		margin-right: $lg;
-	}
-
-&.spacer-right-xl {
-		margin-right: $xl;
-	}
-}
-
-// Spacer Left
-.spacer-left {
-	margin-left: $md;
-	&.spacer-left-sm {
-		margin-left: $sm;
-	}
-
-&.spacer-left-md {
-		margin-left: $md;
-	}
-
-&.spacer-left-lg {
-		margin-left: $lg;
-	}
-
-&.spacer-left-xl {
-		margin-left: $xl;
-	}
-}
 /*****************************************************
 * Hairline
 * adds a thin border to an element
@@ -151,6 +94,19 @@ $hairlineColor : rgba(0,0,0,.1);
 		padding-top   : inherit;
 		padding-bottom: inherit;
 	}
+
+&.padding-no-top {
+	padding-top:0 !important;
+}
+&.padding-no-bottom {
+	padding-bottom:0 !important;
+}
+&.padding-no-left {
+	padding-left:0 !important;
+}
+&.padding-no-right {
+	padding-right:0 !important;
+}
 
 &.padding-left {
 		padding-right : inherit;

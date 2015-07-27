@@ -4,13 +4,13 @@ The missing white space needed for a consistent bootstrap experience.
 
 ##Spacer
 
-Spacer is a margin that can be added to any element. By default spacer adds margin only to the top.
+Spacer is a margin that can be added to any element. By default spacer adds margin only to the top. Spacer defaults to the spacer-md.
 
 ```
 <div class="spacer spacer-sm">
 	I'll have a little margin on the top.
 </div>
-<div class="spacer spacer-md">
+<div class="spacer">
 	I'll have a some more margin on the top.
 </div>
 <div class="spacer spacer-xl">
@@ -18,35 +18,27 @@ Spacer is a margin that can be added to any element. By default spacer adds marg
 </div>
 ```
 
-###Scaper add ons
-
-- **spacer-top**
-- **spacer-bottom**
-- **spacer-left**
-- **spacer-right**
 
 ##Padding
 
 Like spacer, padding can be added to any element, but this time it's padding.
 
 ```
-<div class="spacer padding-sm">
+<div class="padding padding-sm">
 	I'll have a little padding on the top.
 </div>
-<div class="spacer padding-md">
+<div class="padding padding-md">
 	I'll have a some more padding on the top.
 </div>
-<div class="spacer padding-xl">
+<div class="padding padding-xl">
 	I'll have a some more padding on the top.
 </div>
 ```
 
 ###Padding add ons
 
-- **spacer-top**
-- **spacer-bottom**
-- **spacer-left**
-- **spacer-right**
+- **padding-top-bottom**
+- **padding-left-right**
 
 ##Hairline
 
@@ -58,7 +50,7 @@ Hairline is a 1px 20% black border. You can apply it to the top, bottom, left, o
 </div>
 ```
 
-###Padding add ons
+###Hairline add ons
 
 - **hairline-top**
 - **hairline-bottom**
