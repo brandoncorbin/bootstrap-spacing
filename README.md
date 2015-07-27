@@ -2,6 +2,10 @@
 
 The missing white space needed for a consistent bootstrap experience.
 
+You followed the Boostrap way, and yet, things still look funny all bunched together? So you start figure investigating why. You add a row here, a col-xs-12 there and finally you get it look "close enough". But you've just created an unmanageable nightmare.
+
+Let's stop the madness, bootstrap-spacing is designed to give you the padding and margin control you need without a bunch of divs, .rows and .col-whatever-12.
+
 ##Spacer
 
 Spacer is a margin that can be added to any element. By default spacer adds margin only to the top. Spacer defaults to the spacer-md.
