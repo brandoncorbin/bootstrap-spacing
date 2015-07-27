@@ -5,7 +5,7 @@
 $sm: 5px;
 $md: 15px;
 $lg: 25px;
-$xl: 40px;
+$xl: 45px;
 $hairlineColor : rgba(0,0,0,.1);
 
 
@@ -24,7 +24,7 @@ $hairlineColor : rgba(0,0,0,.1);
 		margin-top: $lg;
 	}
 
-.spacer-xl {
+&.spacer-xl {
 		margin-top: $xl;
 	}
 }
