@@ -10,8 +10,8 @@
     margin-top: 15px; }
   .spacer.spacer-lg {
     margin-top: 25px; }
-  .spacer .spacer-xl {
-    margin-top: 40px; }
+  .spacer.spacer-xl {
+    margin-top: 45px; }
 
 /*****************************************************
 * Hairline
@@ -41,7 +41,7 @@
   .padding.padding-lg {
     padding: 25px; }
   .padding .padding-xl {
-    padding: 40px; }
+    padding: 45px; }
   .padding.padding-top {
     padding-bottom: inherit;
     padding-left: inherit;
