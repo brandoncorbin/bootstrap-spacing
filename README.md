@@ -8,7 +8,7 @@ Let's stop the madness, bootstrap-spacing is designed to give you the padding an
 
 ##Spacer
 
-Spacer is a margin that can be added to any element. By default spacer adds margin only to the top. Spacer defaults to the spacer-md.
+Spacer is top-margin that can be added to an element. Spacer will default to the spacer-md size.
 
 ```
 <div class="spacer spacer-sm">
