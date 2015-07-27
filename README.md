@@ -32,29 +32,33 @@ Like spacer, padding can be added to any element, but this time it's padding.
 ```
 <div class="row">
 	<div class="col-sm-3 ">
-		<div class="spacer spacer-lg spacer-bottom hairline hairline-top hairline-bottom padding padding-sm padding-top-bottom">
-			hairline hairline-top hairline-bottom padding padding-sm padding-top-bottom
+		<div style="background-color:rgba(0,0,0,.03);"
+				class="hairline hairline-top hairline-bottom padding padding-sm">
+			hairline hairline-top hairline-bottom padding padding-sm
 		</div>
 	</div>
 	<div class="col-sm-3 ">
-		<div class="spacer spacer-lg spacer-bottom hairline hairline-top hairline-bottom padding padding-lg padding-top-bottom">
-			hairline hairline-top hairline-bottom padding padding-lg padding-top-bottom
+		<div style="background-color:rgba(0,0,0,.03);"
+				class="spacer spacer-sm hairline hairline-top hairline-bottom padding padding-lg">
+			spacer spacer-sm hairline hairline-top hairline-bottom padding padding-lg
 		</div>
 	</div>
 	<div class="col-sm-3 ">
-		<div class="spacer spacer-lg spacer-bottom hairline hairline-top hairline-bottom padding padding-xl padding-top-bottom">
-			hairline hairline-top hairline-bottom padding padding-xl padding-top-bottom
+		<div style="background-color:rgba(0,0,0,.03);"
+				class="spacer spacer-md hairline hairline-top hairline-bottom padding padding-xl">
+		spacer spacer-md hairline hairline-top hairline-bottom padding padding-xl
 		</div>
 	</div>
 	<div class="col-sm-3 ">
-		<div class="spacer spacer-lg spacer-bottom hairline hairline-left hairline-right padding padding-md-bottom padding-md padding-xl-top">
-			spacer spacer-lg spacer-bottom hairline hairline-left hairline-right padding padding-md-bottom padding-md padding-xl-top
+		<div style="background-color:rgba(0,0,0,.03);"
+				class="spacer spacer-lg spacer-bottom hairline hairline-left hairline-right padding padding-md padding-xl-top">
+			spacer spacer-lg spacer-bottom hairline hairline-left hairline-right padding padding-md padding-xl-top
 		</div>
 	</div>
 </div>
 ```
 
-![](http://snap.icorbin.com/Screen-Shot-2015-07-27-17-25-20.png)
+![](http://snap.icorbin.com/Screen-Shot-2015-07-27-17-36-32.png)
 
 ###Padding add ons
 
