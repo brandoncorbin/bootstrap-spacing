@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-spacing",
+  "version": "0.0.1",
+  "authors": [
+    "Corbin",
+    "Brandon <bcorbin@fusionalliance.com>"
+  ],
+  "description": "Tiny set of classes to help with spacing, margins and borders in bootstrap",
+  "keywords": [
+    "bootstrap",
+    "spacing",
+    "margin",
+    "padding"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

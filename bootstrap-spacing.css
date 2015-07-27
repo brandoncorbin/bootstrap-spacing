@@ -1,0 +1,109 @@
+/*****************************************************
+* Generic Spacer
+* Work around some default ugliness of bootstrap
+******************************************************/
+.spacer,
+.spacer-top {
+  margin-top: 20px; }
+  .spacer.spacer-sm,
+  .spacer-top.spacer-sm {
+    margin-top: 5px; }
+  .spacer.spacer-md,
+  .spacer-top.spacer-md {
+    margin-top: 15px; }
+  .spacer.spacer-xl,
+  .spacer-top.spacer-xl {
+    margin-top: 40px; }
+  .spacer.spacer-lg,
+  .spacer-top.spacer-lg {
+    margin-top: 25px; }
+
+.spacer-bottom {
+  margin-top: 20px; }
+  .spacer-bottom.spacer-bottom-sm {
+    margin-top: 5px; }
+  .spacer-bottom.spacer-bottom-md {
+    margin-top: 15px; }
+  .spacer-bottom.spacer-bottom-xl {
+    margin-top: 40px; }
+  .spacer-bottom.spacer-bottom-lg {
+    margin-top: 25px; }
+
+.spacer-right {
+  margin-right: 15px; }
+  .spacer-right.spacer-right-sm {
+    margin-right: 5px; }
+  .spacer-right.spacer-right-md {
+    margin-right: 15px; }
+  .spacer-right.spacer-right-lg {
+    margin-right: 25px; }
+  .spacer-right.spacer-right-xl {
+    margin-right: 40px; }
+
+.spacer-left {
+  margin-left: 15px; }
+  .spacer-left.spacer-left-sm {
+    margin-left: 5px; }
+  .spacer-left.spacer-left-md {
+    margin-left: 15px; }
+  .spacer-left.spacer-left-lg {
+    margin-left: 25px; }
+  .spacer-left.spacer-left-xl {
+    margin-left: 40px; }
+
+/*****************************************************
+* Hairline
+* adds a thin border to an element
+******************************************************/
+.hairline.hairline-top {
+  border-top: solid 1px rgba(0, 0, 0, 0.1); }
+.hairline.hairline-bottom {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1); }
+.hairline.hairline-left {
+  border-left: solid 1px rgba(0, 0, 0, 0.1); }
+.hairline.hairline-right {
+  border-right: solid 1px rgba(0, 0, 0, 0.1); }
+.hairline.hairline-all {
+  border: solid 1px rgba(0, 0, 0, 0.1); }
+
+/*****************************************************
+* Generic Padding
+* Work around some default ugliness of bootstrap
+******************************************************/
+.padding {
+  padding: 15px; }
+  .padding.padding-sm {
+    padding: 5px; }
+  .padding.padding-md {
+    padding: 15px; }
+  .padding.padding-lg {
+    padding: 25px; }
+  .padding.padding-xl {
+    padding: 40px; }
+  .padding.padding-top {
+    padding-bottom: inherit;
+    padding-left: inherit;
+    padding-right: inherit; }
+  .padding.padding-bottom {
+    padding-top: inherit;
+    padding-left: inherit;
+    padding-right: inherit; }
+  .padding.padding-right {
+    padding-left: inherit;
+    padding-top: inherit;
+    padding-bottom: inherit; }
+  .padding.padding-left {
+    padding-right: inherit;
+    padding-top: inherit;
+    padding-bottom: inherit; }
+  .padding.padding-top-bottom {
+    padding-right: inherit;
+    padding-left: inherit; }
+  .padding.padding-left-right {
+    padding-top: inherit;
+    padding-bottom: inherit; }
+
+.padding-none {
+  padding: 0 !important; }
+
+/*# sourceMappingURL=bootstrap-spacing.css.map */

@@ -1,0 +1,172 @@
+/*****************************************************
+* Generic Spacer
+* Work around some default ugliness of bootstrap
+******************************************************/
+$sm: 5px;
+$md: 15px;
+$lg: 25px;
+$xl: 40px;
+$hairlineColor : rgba(0,0,0,.1);
+.spacer,
+.spacer-top {
+	margin-top: 20px;
+	&.spacer-sm {
+		margin-top: $sm;
+	}
+
+&.spacer-md {
+		margin-top: $md;
+	}
+
+&.spacer-xl {
+		margin-top: $xl;
+	}
+
+&.spacer-lg {
+		margin-top: $lg;
+	}
+}
+
+// Spacer Bottom
+.spacer-bottom {
+	margin-top: 20px;
+	&.spacer-bottom-sm {
+		margin-top: $sm;
+	}
+
+&.spacer-bottom-md {
+		margin-top: $md;
+	}
+
+&.spacer-bottom-xl {
+		margin-top: $xl;
+	}
+
+&.spacer-bottom-lg {
+		margin-top: $lg;
+	}
+}
+
+// Spacer Right
+.spacer-right {
+	margin-right: $md;
+	&.spacer-right-sm {
+		margin-right: $sm;
+	}
+
+&.spacer-right-md {
+		margin-right: $md;
+	}
+
+&.spacer-right-lg {
+		margin-right: $lg;
+	}
+
+&.spacer-right-xl {
+		margin-right: $xl;
+	}
+}
+
+// Spacer Left
+.spacer-left {
+	margin-left: $md;
+	&.spacer-left-sm {
+		margin-left: $sm;
+	}
+
+&.spacer-left-md {
+		margin-left: $md;
+	}
+
+&.spacer-left-lg {
+		margin-left: $lg;
+	}
+
+&.spacer-left-xl {
+		margin-left: $xl;
+	}
+}
+/*****************************************************
+* Hairline
+* adds a thin border to an element
+******************************************************/
+.hairline {
+
+	&.hairline-top {
+		border-top:solid 1px $hairlineColor;
+	}
+	&.hairline-bottom {
+		border-bottom:solid 1px $hairlineColor;
+	}
+	&.hairline-left {
+		border-left:solid 1px $hairlineColor;
+	}
+	&.hairline-right {
+		border-right:solid 1px $hairlineColor;
+	}
+	&.hairline-all {
+		border:solid 1px $hairlineColor;
+	}
+}
+
+
+
+/*****************************************************
+* Generic Padding
+* Work around some default ugliness of bootstrap
+******************************************************/
+.padding {
+	padding: $md;
+	&.padding-sm {
+		padding: $sm;
+	}
+
+&.padding-md {
+		padding: $md;
+	}
+
+&.padding-lg {
+		padding: $lg;
+	}
+
+.padding-xl {
+		padding: $xl;
+	}
+
+
+&.padding-top {
+		padding-bottom: inherit;
+		padding-left  : inherit;
+		padding-right : inherit;
+	}
+
+&.padding-bottom {
+		padding-top  : inherit;
+		padding-left : inherit;
+		padding-right: inherit;
+	}
+
+&.padding-right {
+		padding-left  : inherit;
+		padding-top   : inherit;
+		padding-bottom: inherit;
+	}
+
+&.padding-left {
+		padding-right : inherit;
+		padding-top   : inherit;
+		padding-bottom: inherit;
+	}
+	&.padding-top-bottom {
+			padding-right : inherit;
+			padding-left   : inherit;
+		}
+		&.padding-left-right {
+				padding-top : inherit;
+				padding-bottom   : inherit;
+			}
+}
+
+.padding-none {
+	padding: 0 !important;
+}
