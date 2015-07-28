@@ -6,6 +6,8 @@ You followed the Boostrap way, and yet, things still look funny all bunched toge
 
 Let's stop the madness, bootstrap-spacing is designed to give you the padding and margin control you need without a bunch of divs, .rows and .col-whatever-12.
 
+[Check out some examples](http://htmlpreview.github.com/?https://github.com/brandoncorbin/bootstrap-spacing/blob/master/index.html)
+
 ##Spacer
 
 Spacer is top-margin that can be added to an element. Spacer will default to the spacer-md size.
