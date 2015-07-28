@@ -87,6 +87,38 @@ Like spacer, padding can be added to any element, but this time it's padding.
 - **padding-lg-right**
 - **padding-xl-right**
 
+
+##Margin
+
+Just like padding, but for margin. Requires "margin" to be included in the class name - e.g. `class="margin margin-xl-top"`
+
+```
+<div class="margin margin-md"></div>
+```
+
+###margin add ons
+
+- **margin-off-top**  
+- **margin-sm-top**
+- **margin-md-top**
+- **margin-lg-top**
+- **margin-xl-top**
+- **margin-off-bottom**  
+- **margin-sm-bottom**
+- **margin-md-bottom**
+- **margin-lg-bottom**
+- **margin-xl-bottom**
+- **margin-off-left**  
+- **margin-sm-left**
+- **margin-md-left**
+- **margin-lg-left**
+- **margin-xl-left**
+- **margin-off-right**  
+- **margin-sm-right**
+- **margin-md-right**
+- **margin-lg-right**
+- **margin-xl-right**
+
 ##Hairline
 
 Hairline is a 1px 20% black border. You can apply it to the top, bottom, left, or right of an element.
