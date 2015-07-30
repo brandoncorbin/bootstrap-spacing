@@ -71,7 +71,7 @@
   .padding.padding-xl-bottom {
     padding-bottom: 45px; }
   .padding.padding-off {
-    padding: 0; }
+    padding: 0 !important; }
   .padding.padding-off-left {
     padding-left: 0 !important; }
   .padding.padding-off-right {
@@ -131,5 +131,9 @@
   margin-top: 0 !important; }
 .margin.margin-off-bottom {
   margin-bottom: 0 !important; }
+.margin.margin-auto-left {
+  margin-left: auto !important; }
+.margin.margin-auto-right {
+  margin-right: auto !important; }
 
 /*# sourceMappingURL=bootstrap-spacing.css.map */
