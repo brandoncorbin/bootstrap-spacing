@@ -1,5 +1,6 @@
 {
   "name": "bootstrap-spacing",
+  "main" : "./bootstrap-spacing.css",
   "version": "0.0.1",
   "authors": [
     "Corbin",
