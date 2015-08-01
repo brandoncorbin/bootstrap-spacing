@@ -6,7 +6,7 @@
 $hairlineColor: 				rgba(0,0,0,.1);
 $spacing-base:					15px !default;
 $xm: 										ceil(($spacing-base * 0.45)) !default; // ~12px;
-$sm:										ceil(($spacing-base * 0.85)) !default; // ~12px;
+$sm:										ceil(($spacing-base * 0.65)) !default; // ~12px;
 $md: 										$spacing-base; // ~12px;
 $lg: 										ceil(($spacing-base * 1.85)) !default; // ~12px;
 $xl:										ceil(($spacing-base * 2.85)) !default;
