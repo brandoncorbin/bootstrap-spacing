@@ -1,25 +1,25 @@
 
-@mixin margin-generator($sizeLabel, $px) {
-	.margin-#{$sizeLabel} {
-		margin: $px;
+@mixin padding-generator($sizeLabel, $px) {
+	.padding-#{$sizeLabel} {
+		padding: $px;
 	}
-	.margin-#{$sizeLabel}-left {
-		margin-left: $px;
+	.padding-#{$sizeLabel}-left {
+		padding-left: $px;
 	}
-	.margin-#{$sizeLabel}-right {
-		margin-right: $px;
+	.padding-#{$sizeLabel}-right {
+		padding-right: $px;
 	}
-	.margin-#{$sizeLabel}-top {
-		margin-top: $px;
+	.padding-#{$sizeLabel}-top {
+		padding-top: $px;
 	}
-	.margin-#{$sizeLabel}-bottom {
-		margin-bottom: $px;
+	.padding-#{$sizeLabel}-bottom {
+		padding-bottom: $px;
 	}
 }
 
-@include margin-generator('xs', $xs);
-@include margin-generator('sm', $sm);
-@include margin-generator('md', $md);
-@include margin-generator('lg', $lg);
-@include margin-generator('xl', $xl);
-@include margin-generator('off', 0 !important);
+@include padding-generator('xs', $xs);
+@include padding-generator('sm', $sm);
+@include padding-generator('md', $md);
+@include padding-generator('lg', $lg);
+@include padding-generator('xl', $xl);
+@include padding-generator('off', 0 !important);
