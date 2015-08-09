@@ -1,37 +1,21 @@
-#Bootstrap spacing
+# Bootstrap White Space Management
 
-The missing white space needed for a consistent bootstrap experience.
+The missing white space control classes needed for a consistent bootstrap experience.
 
-You followed the Boostrap way, and yet, things still look funny all bunched together? So you start figure investigating why. You add a row here, a col-xs-12 there and finally you get it look "close enough". But you've just created an unmanageable nightmare.
-
-Let's stop the madness, bootstrap-spacing is designed to give you the padding and margin control you need without a bunch of divs, .rows and .col-whatever-12.
+Bootstrap-spacing is designed to give you the padding, margin and text control you need without a bunch of of custom CSS.
 
 [Check out some examples](http://htmlpreview.github.com/?https://github.com/brandoncorbin/bootstrap-spacing/blob/master/index.html)
 
-##Spacer
+## What's included
 
-Spacer is top-margin that can be added to an element. Spacer will default to the spacer-md size.
+- **Padding** control top,bottom,left,right padding on any element
+- **Margin** control top,bottom,left,right margin on any element
+- **Text Size** xs,sm,md,lg,xl font sizes
+- **Text Styles** text-bold, text-thin
+- **Text Colors** faded dark and light colors
 
-```
-<div class="spacer spacer-sm">
-	I'll have a little margin on the top.
-</div>
-<div class="spacer">
-	I'll have some more margin on the top.
-</div>
-<div class="spacer spacer-xl">
-	I'll have event more margin on the top.
-</div>
-```
-###Spacer add ons
 
-- **spacer-off**  
-- **spacer-sm**
-- **spacer-md**
-- **spacer-lg**
-- **spacer-xl**
-
-##Padding
+## Padding
 
 Like spacer, padding can be added to any element, but this time it's padding.
 
@@ -66,31 +50,20 @@ Like spacer, padding can be added to any element, but this time it's padding.
 
 ![](http://snap.icorbin.com/Screen-Shot-2015-07-27-17-36-32.png)
 
-###Padding add ons
 
+- **padding-off**
 - **padding-off-top**  
-- **padding-sm-top**
-- **padding-md-top**
-- **padding-lg-top**
-- **padding-xl-top**
 - **padding-off-bottom**  
-- **padding-sm-bottom**
-- **padding-md-bottom**
-- **padding-lg-bottom**
-- **padding-xl-bottom**
 - **padding-off-left**  
-- **padding-sm-left**
-- **padding-md-left**
-- **padding-lg-left**
-- **padding-xl-left**
 - **padding-off-right**  
-- **padding-sm-right**
-- **padding-md-right**
-- **padding-lg-right**
-- **padding-xl-right**
+
+- **padding-(xs,sm,md,lg,xl)-top**  
+- **padding-(xs,sm,md,lg,xl)-bottom**  
+- **padding-(xs,sm,md,lg,xl)-left**  
+- **padding-(xs,sm,md,lg,xl)-right**  
 
 
-##Margin
+## Margin
 
 Just like padding, but for margin. Requires "margin" to be included in the class name - e.g. `class="margin margin-xl-top"`
 
@@ -98,30 +71,19 @@ Just like padding, but for margin. Requires "margin" to be included in the class
 <div class="margin margin-md"></div>
 ```
 
-###margin add ons
-
+- **margin-off**
 - **margin-off-top**  
-- **margin-sm-top**
-- **margin-md-top**
-- **margin-lg-top**
-- **margin-xl-top**
 - **margin-off-bottom**  
-- **margin-sm-bottom**
-- **margin-md-bottom**
-- **margin-lg-bottom**
-- **margin-xl-bottom**
 - **margin-off-left**  
-- **margin-sm-left**
-- **margin-md-left**
-- **margin-lg-left**
-- **margin-xl-left**
 - **margin-off-right**  
-- **margin-sm-right**
-- **margin-md-right**
-- **margin-lg-right**
-- **margin-xl-right**
 
-##Hairline
+- **margin-(xs,sm,md,lg,xl)-top**  
+- **margin-(xs,sm,md,lg,xl)-bottom**  
+- **margin-(xs,sm,md,lg,xl)-left**  
+- **margin-(xs,sm,md,lg,xl)-right**  
+
+
+## Hairline
 
 Hairline is a 1px 20% black border. You can apply it to the top, bottom, left, or right of an element.
 
@@ -131,12 +93,75 @@ Hairline is a 1px 20% black border. You can apply it to the top, bottom, left, o
 </div>
 ```
 
-###Hairline add ons
-
 - **hairline-top**
 - **hairline-bottom**
 - **hairline-left**
 - **hairline-right**
+
+
+## Text Styles
+
+- .text-bold
+- .text-thin
+
+## Text Sizes
+
+- .text-xs
+- .text-sm
+- .text-md
+- .text-lg
+- .text-xl
+
+## Text Fades
+
+![](http://snap.icorbin.com/Screen-Shot-2015-08-09-19-12-35.png)
+
+### Dark Fade (dark alpha from 90% to 10%)
+
+- .text-faded-90 - 90% black
+- .text-faded-80 - 80% black
+- .text-faded-70 - 70% black
+- .text-faded-60 - 60% black
+- .text-faded-50 - 50% black
+- .text-faded-40 - 40% black
+- .text-faded-30 - 30% black
+- .text-faded-20 - 20% black
+- .text-faded-10 - 10% black
+
+### White Fade (white alpha from 90% to 10%)
+
+- .text-faded-inverse-90 - 90% white
+- .text-faded-inverse-80 - 80% white
+- .text-faded-inverse-70 - 70% white
+- .text-faded-inverse-60 - 60% white
+- .text-faded-inverse-50 - 50% white
+- .text-faded-inverse-40 - 40% white
+- .text-faded-inverse-30 - 30% white
+- .text-faded-inverse-20 - 20% white
+- .text-faded-inverse-10 - 10% white
+
+## Spacer
+
+Spacer is top-margin that can be added to an element. Spacer will default to the spacer-md size.
+
+```
+<div class="spacer spacer-sm">
+	I'll have a little margin on the top.
+</div>
+<div class="spacer">
+	I'll have some more margin on the top.
+</div>
+<div class="spacer spacer-xl">
+	I'll have event more margin on the top.
+</div>
+```
+### Spacer add ons
+
+- **spacer-off**  
+- **spacer-sm**
+- **spacer-md**
+- **spacer-lg**
+- **spacer-xl**
 
 #Todo:
 
