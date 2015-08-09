@@ -1,0 +1,39 @@
+.hairline-top {
+	border-top: solid 1px $hairlineColor !important;
+}
+
+.hairline-bottom {
+	border-bottom: solid 1px $hairlineColor !important;
+}
+
+.hairline-left {
+	border-left: solid 1px $hairlineColor !important;
+}
+
+.hairline-right {
+	border-right: solid 1px $hairlineColor !important;
+}
+
+.hairline-all {
+	border: solid 1px $hairlineColor !important;
+}
+
+.hairline-off-top {
+	border-top: none !important;
+}
+
+.hairline-off-bottom {
+	border-bottom: none !important;
+}
+
+.hairline-off-left {
+	border-left: none !important;
+}
+
+.hairline-off-right {
+	border-right: none !important;
+}
+
+.hairline-off {
+	border: none !important;
+}

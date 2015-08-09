@@ -1,0 +1,45 @@
+
+@mixin text-size($sizeLabel, $px) {
+	.text-#{$sizeLabel} {
+		font-size: $px;
+		line-height : $px+8;
+	}
+}
+
+@mixin text-faded($amount) {
+	.text-faded-#{$amount * 100} {
+		color : rgba(0,0,0,$amount);
+	}
+	.text-faded-inverse-#{$amount * 100} {
+		color : rgba(255,255,255,$amount);
+	}
+}
+.text-faded {
+	color : rgba(0,0,0,.3);
+}
+.text-faded-inverse {
+	color : rgba(255,255,255,.3);
+}
+
+@include text-size('xs', 8px);
+@include text-size('sm', 12px);
+@include text-size('md', 15px);
+@include text-size('lg', 20px);
+@include text-size('xl', 35px);
+
+@include text-faded(.9);
+@include text-faded(.8);
+@include text-faded(.7);
+@include text-faded(.6);
+@include text-faded(.5);
+@include text-faded(.4);
+@include text-faded(.3);
+@include text-faded(.2);
+@include text-faded(.1);
+
+.text-bold {
+	font-weight:bold;
+}
+.text-thin {
+	font-weight:100;
+}
