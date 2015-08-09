@@ -24,14 +24,14 @@
 @include text-size('xs', 8px);
 @include text-size('sm', 12px);
 @include text-size('md', 15px);
-@include text-size('lg', 20px);
-@include text-size('xl', 35px);
+@include text-size('lg', 25px);
+@include text-size('xl', 55px);
 
 @include text-faded(.9);
 @include text-faded(.8);
 @include text-faded(.7);
 @include text-faded(.6);
-@include text-faded(.5);
+@include text-faded(.5); 
 @include text-faded(.4);
 @include text-faded(.3);
 @include text-faded(.2);
