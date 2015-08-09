@@ -51,7 +51,7 @@ Like spacer, padding can be added to any element, but this time it's padding.
 ![](http://snap.icorbin.com/Screen-Shot-2015-07-27-17-36-32.png)
 
 
-- **padding-off**
+- **padding-off**git add
 - **padding-off-top**  
 - **padding-off-bottom**  
 - **padding-off-left**  
