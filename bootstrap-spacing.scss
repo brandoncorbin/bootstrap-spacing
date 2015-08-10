@@ -3,10 +3,10 @@
 * Helper Classes for white space control in Bootstrap
 ******************************************************/
 $hairlineColor: rgba(0,0,0,.1);
-$xs: 						2px !default;
-$sm: 						5px !default;
-$md: 						12px !default;
-$lg: 						20px !default;
+$xs: 						4px !default;
+$sm: 						10px !default;
+$md: 						18px !default;
+$lg: 						24px !default;
 $xl: 						40px !default;
 // Imports
 @import './units/_hairline.scss';
@@ -15,3 +15,4 @@ $xl: 						40px !default;
 @import './units/_spacer.scss';
 @import './units/_text.scss';
 @import './units/_heights.scss';
+@import './units/_bgcolor.scss';
