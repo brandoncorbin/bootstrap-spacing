@@ -13,4 +13,5 @@
 
 @for $i from 1 through 10 {
 	@include min-height($i*100,$i*100px);
+	@include min-height($i*100+50,$i*100+50px);
 }

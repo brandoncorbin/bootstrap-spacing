@@ -339,32 +339,62 @@
 .min-height-100 {
   min-height: 100px; }
 
+.min-height-150 {
+  min-height: 150px; }
+
 .min-height-200 {
   min-height: 200px; }
+
+.min-height-250 {
+  min-height: 250px; }
 
 .min-height-300 {
   min-height: 300px; }
 
+.min-height-350 {
+  min-height: 350px; }
+
 .min-height-400 {
   min-height: 400px; }
+
+.min-height-450 {
+  min-height: 450px; }
 
 .min-height-500 {
   min-height: 500px; }
 
+.min-height-550 {
+  min-height: 550px; }
+
 .min-height-600 {
   min-height: 600px; }
+
+.min-height-650 {
+  min-height: 650px; }
 
 .min-height-700 {
   min-height: 700px; }
 
+.min-height-750 {
+  min-height: 750px; }
+
 .min-height-800 {
   min-height: 800px; }
+
+.min-height-850 {
+  min-height: 850px; }
 
 .min-height-900 {
   min-height: 900px; }
 
+.min-height-950 {
+  min-height: 950px; }
+
 .min-height-1000 {
   min-height: 1000px; }
+
+.min-height-1050 {
+  min-height: 1050px; }
 
 .bg-faded-90 {
   background-color: rgba(0, 0, 0, 0.9); }
