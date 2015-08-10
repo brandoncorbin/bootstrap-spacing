@@ -1,0 +1,16 @@
+
+@mixin min-height($sizeLabel, $px) {
+	.min-height-#{$sizeLabel} {
+		min-height: $px;
+	}
+}
+
+@include min-height('xs', 100px);
+@include min-height('sm', 200px);
+@include min-height('md', 400px);
+@include min-height('lg', 750px);
+@include min-height('xl', 900px);
+
+@for $i from 1 through 10 {
+	@include min-height($i*100,$i*100px);
+}

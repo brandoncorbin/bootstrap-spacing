@@ -313,4 +313,49 @@
 .text-thin {
   font-weight: 100; }
 
+.min-height-xs {
+  min-height: 100px; }
+
+.min-height-sm {
+  min-height: 200px; }
+
+.min-height-md {
+  min-height: 400px; }
+
+.min-height-lg {
+  min-height: 750px; }
+
+.min-height-xl {
+  min-height: 900px; }
+
+.min-height-100 {
+  min-height: 100px; }
+
+.min-height-200 {
+  min-height: 200px; }
+
+.min-height-300 {
+  min-height: 300px; }
+
+.min-height-400 {
+  min-height: 400px; }
+
+.min-height-500 {
+  min-height: 500px; }
+
+.min-height-600 {
+  min-height: 600px; }
+
+.min-height-700 {
+  min-height: 700px; }
+
+.min-height-800 {
+  min-height: 800px; }
+
+.min-height-900 {
+  min-height: 900px; }
+
+.min-height-1000 {
+  min-height: 1000px; }
+
 /*# sourceMappingURL=bootstrap-spacing.css.map */
