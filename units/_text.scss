@@ -26,8 +26,9 @@
 @include text-size('sm', 12px);
 @include text-size('md', 16px);
 @include text-size('lg', 26px);
-@include text-size('xl', 46px);
-@include text-size('xxl',78px);
+@include text-size('xl', 40px);
+@include text-size('xxl',60px);
+@include text-size('xxxl',90px);
 
 @include text-faded(.9);
 @include text-faded(.8);

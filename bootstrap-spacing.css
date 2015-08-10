@@ -254,12 +254,16 @@
   line-height: 34px; }
 
 .text-xl {
-  font-size: 46px;
-  line-height: 54px; }
+  font-size: 40px;
+  line-height: 48px; }
 
 .text-xxl {
-  font-size: 78px;
-  line-height: 86px; }
+  font-size: 60px;
+  line-height: 68px; }
+
+.text-xxxl {
+  font-size: 90px;
+  line-height: 98px; }
 
 .text-faded-90 {
   color: rgba(0, 0, 0, 0.9); }
