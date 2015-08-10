@@ -314,19 +314,19 @@
   font-weight: 100; }
 
 .min-height-xs {
-  min-height: 100px; }
+  min-height: 50px; }
 
 .min-height-sm {
-  min-height: 200px; }
+  min-height: 120px; }
 
 .min-height-md {
-  min-height: 400px; }
+  min-height: 300px; }
 
 .min-height-lg {
-  min-height: 750px; }
+  min-height: 500px; }
 
 .min-height-xl {
-  min-height: 900px; }
+  min-height: 700px; }
 
 .min-height-100 {
   min-height: 100px; }

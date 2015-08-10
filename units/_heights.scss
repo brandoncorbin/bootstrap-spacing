@@ -5,11 +5,11 @@
 	}
 }
 
-@include min-height('xs', 100px);
-@include min-height('sm', 200px);
-@include min-height('md', 400px);
-@include min-height('lg', 750px);
-@include min-height('xl', 900px);
+@include min-height('xs', 50px);
+@include min-height('sm', 120px);
+@include min-height('md', 300px);
+@include min-height('lg', 500px);
+@include min-height('xl', 700px);
 
 @for $i from 1 through 10 {
 	@include min-height($i*100,$i*100px);
