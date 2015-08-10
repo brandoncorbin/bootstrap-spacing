@@ -1,0 +1,20 @@
+@mixin bg-faded($amount) {
+	.bg-faded-#{$amount * 100} {
+		background-color : rgba(0,0,0,$amount);
+	}
+	.bg-faded-inverse-#{$amount * 100} {
+		background-color : rgba(255,255,255,$amount);
+	}
+}
+
+@include bg-faded(.9);
+@include bg-faded(.8);
+@include bg-faded(.7);
+@include bg-faded(.6);
+@include bg-faded(.5);
+@include bg-faded(.4);
+@include bg-faded(.3);
+@include bg-faded(.2);
+@include bg-faded(.1);
+@include bg-faded(.15);
+@include bg-faded(.05);
