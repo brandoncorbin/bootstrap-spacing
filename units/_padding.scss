@@ -23,3 +23,12 @@
 @include padding-generator('lg', $lg);
 @include padding-generator('xl', $xl);
 @include padding-generator('off', 0 !important);
+
+@media screen and (max-width: 768px) {
+	@include padding-generator('xs', 2px);
+	@include padding-generator('sm', 5px);
+	@include padding-generator('md', 10px);
+	@include padding-generator('lg', 15px);
+	@include padding-generator('xl', 20px);
+	@include padding-generator('off', 0 !important);
+}
