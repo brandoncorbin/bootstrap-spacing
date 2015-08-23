@@ -445,6 +445,38 @@
   font-size: 90px;
   line-height: 98px; }
 
+@media screen and (max-width: 768px) {
+  .text-xs-xxs {
+    font-size: 7px;
+    line-height: 15px; }
+
+  .text-xs-xs {
+    font-size: 10px;
+    line-height: 18px; }
+
+  .text-xs-sm {
+    font-size: 12px;
+    line-height: 20px; }
+
+  .text-xs-md {
+    font-size: 14px;
+    line-height: 22px; }
+
+  .text-xs-lg {
+    font-size: 18px;
+    line-height: 26px; }
+
+  .text-xs-xl {
+    font-size: 20px;
+    line-height: 28px; }
+
+  .text-xs-xxl {
+    font-size: 40px;
+    line-height: 48px; }
+
+  .text-xs-xxxl {
+    font-size: 60px;
+    line-height: 68px; } }
 .text-faded-90 {
   color: rgba(0, 0, 0, 0.9); }
 

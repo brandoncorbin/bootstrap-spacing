@@ -30,6 +30,17 @@
 @include text-size('xxl',60px);
 @include text-size('xxxl',90px);
 
+@media screen and (max-width: 768px) {
+	@include text-size('xs-xxs', 7px);
+	@include text-size('xs-xs', 10px);
+	@include text-size('xs-sm', 12px);
+	@include text-size('xs-md', 14px);
+	@include text-size('xs-lg', 18px);
+	@include text-size('xs-xl', 20px);
+	@include text-size('xs-xxl',40px);
+	@include text-size('xs-xxxl',60px);
+}
+
 @include text-faded(.9);
 @include text-faded(.8);
 @include text-faded(.7);
